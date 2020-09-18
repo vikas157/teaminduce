@@ -391,7 +391,7 @@ min-height: 100vh;
 
 #hero:before {
   content: "";
- 
+ background:rgb(0,0,0,0.05);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -477,7 +477,7 @@ min-height: 100vh;
 
 #intro .carousel-item::before {
   content: '';
-  
+  background:rgb(0,0,0,0.05);
 }
 
 #intro .carousel-container {
