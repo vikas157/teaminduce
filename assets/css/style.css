@@ -4,7 +4,6 @@
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
-
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -154,6 +153,13 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 28px;
   }
 }
+/*background video*/
+.video-background {
+position:relative;
+width: 100%;
+min-height: 100vh;
+}
+
 
 /*--------------------------------------------------------------
 # Navigation Menu
@@ -391,7 +397,7 @@ h1, h2, h3, h4, h5, h6 {
   top: 0;
   left: 0;
   right: 0;
-  z-index: 1;
+  z-index: 2;
 
 }
 
@@ -423,11 +429,7 @@ h1, h2, h3, h4, h5, h6 {
   border-bottom: 3px solid #149ddd;
 }
 
-@media (min-width: 1024px) {
-  #hero {
-    background-attachment: fixed;
-  }
-}
+
 
 @media (max-width: 768px) {
   #hero h1 {
@@ -441,12 +443,13 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+
 /*--------------------------------------------------------------
 # Intro Section
 --------------------------------------------------------------*/
 #intro {
-  width: 100%;
-  height: 100vh;
+  width: 95%;
+  height: 80vh;
   background: #000;
   overflow: hidden;
   position: relative;
