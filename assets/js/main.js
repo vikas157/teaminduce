@@ -10,7 +10,7 @@
     this.toRotate = toRotate;
     this.el = el;
     this.loopNum = 0;
-    this.period = parseInt(period, 7) || 1000;
+    this.period = parseInt(period, 5) || 100;
     this.txt = '';
     this.tick();
     this.isDeleting = false;
@@ -21,7 +21,7 @@
     var fullTxt = this.toRotate[i];
   
     if (this.isDeleting) {
-      this.txt = fullTxt.substring(0, this.txt.length - 1);
+      this.txt = fullTxt.substring(0, this.txt.length - 25);
     } else {
       this.txt = fullTxt.substring(0, this.txt.length + 1);
     }
