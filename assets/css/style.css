@@ -1590,3 +1590,13 @@ section {
   font-size: 13px;
   color: #ddd;
 }
+@media (min-width: 950px){
+  #spaceleft{
+    margin-left: 100px;
+  }
+}
+@media (min-width: 1100px){
+  #spaceleft{
+    margin-left: 200px;
+  }
+}
