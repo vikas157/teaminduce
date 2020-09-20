@@ -395,7 +395,6 @@ background: url("../img/bg4.jpg") center rgb(0,0,0,0.5) ;
 
 #hero:before {
   content: "";
-  background:rgb(0,0,0,0.3);
   height: 100vh;
   position: absolute;
   bottom: 0;
