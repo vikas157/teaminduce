@@ -1590,14 +1590,14 @@ section {
   font-size: 13px;
   color: #ddd;
 }
-@media only screen and (max-width: 420px){
+@media only screen and (max-width: 550px){
   #imgtop{
     height: 120px;
     background-size: auto 140px;
 
   }
 }
-@media only screen and (min-width: 421px){
+@media only screen and (min-width: 551px){
   #imgtop{
     height: 220px;
   }
