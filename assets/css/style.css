@@ -1611,9 +1611,7 @@ section {
     height: auto;
   }
 }
-#borderimg {
-	border : 4px solid black;
-  border-radius: 10px;
+
 }
 #carousel2{
   background-color: black;
