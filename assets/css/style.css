@@ -1630,3 +1630,11 @@ section {
   margin-right: 30%;
   border-radius: 5px;
 }
+#collapsestyle{
+  text-decoration: none;
+  color: black;
+  font-weight:550;
+  white-space: nowrap;
+  border:none;
+  outline: none;
+}
