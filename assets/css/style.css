@@ -508,7 +508,7 @@ section {
 
 /*--------------------------------------------------------------
 # Breadcrumbs
---------------------------------------------------------------*/
+--------------------------------------------------------------
 .breadcrumbs {
   padding: 20px 0;
   background-color: #f7f7f7;
@@ -559,9 +559,10 @@ section {
     display: inline-block;
   }
 }
+*/
 
 /* Featured Services Section
---------------------------------*/
+--------------------------------
 #featured-services {
   background: #000;
 }
@@ -600,7 +601,8 @@ section {
   line-height: 24px;
   color: #fff;
   margin-bottom: 0;
-}
+} 
+*/
 
 /* About Us Section
 --------------------------------*/
@@ -698,7 +700,7 @@ section {
 }
 
 /* Services Section
---------------------------------*/
+--------------------------------
 #services {
   background: #fff;
   background-size: cover;
@@ -741,9 +743,10 @@ section {
   line-height: 24px;
   margin-bottom: 0;
 }
+*/
 
 /* Call To Action Section
---------------------------------*/
+--------------------------------
 #call-to-action {
   background: linear-gradient(rgba(0, 142, 99, 0.1), rgba(0, 0, 0, 0.1)), url(../img/call-to-action-bg.jpg) fixed center center;
   background-size: cover;
@@ -779,9 +782,10 @@ section {
   background: #18d26e;
   border: 2px solid #18d26e;
 }
+*/
 
 /* Call To Action Section
---------------------------------*/
+--------------------------------
 #skills {
   padding: 60px 0;
 }
@@ -810,9 +814,10 @@ section {
   text-align: left;
   transition: .9s;
 }
+*/
 
 /* Facts Section
---------------------------------*/
+--------------------------------
 #facts {
   background: url("../img/facts-bg.jpg") center top no-repeat fixed;
   background-size: cover;
@@ -856,9 +861,10 @@ section {
   text-align: center;
   padding-top: 30px;
 }
+*/
 
 /* Portfolio Section
---------------------------------*/
+--------------------------------
 #portfolio {
   padding: 60px 0;
 }
@@ -1002,9 +1008,10 @@ section {
   font-size: 14px;
   text-transform: uppercase;
 }
+*/
 
 /* Portfolio Details
---------------------------------*/
+--------------------------------
 .portfolio-details {
   padding-top: 30px;
 }
@@ -1088,9 +1095,10 @@ section {
     margin-top: 30px;
   }
 }
+*/
 
 /* Clients Section
---------------------------------*/
+--------------------------------
 #clients {
   padding: 60px 0;
 }
@@ -1123,9 +1131,9 @@ section {
 #clients .owl-dot.active {
   background-color: #18d26e;
 }
-
+*/
 /* Testimonials Section
---------------------------------*/
+--------------------------------
 #testimonials {
   padding: 60px 0;
 }
@@ -1201,6 +1209,7 @@ section {
 #testimonials .owl-dot.active {
   background-color: #18d26e;
 }
+*/
 
 /* Team Section
 --------------------------------*/
@@ -1278,7 +1287,7 @@ section {
 }
 
 /* Contact Section
---------------------------------*/
+--------------------------------
 #contact {
   padding: 60px 0;
 }
@@ -1429,6 +1438,7 @@ section {
     transform: rotate(360deg);
   }
 }
+*/
 
 /*--------------------------------------------------------------
 # Footer
