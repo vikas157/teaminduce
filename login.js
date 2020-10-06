@@ -133,7 +133,7 @@ function getInputValue(){
    // document.getElementById("vanitha").click();
    location.href="https://drive.google.com/file/d/1CDFIZ23ewg0vqc6ms14U8D1AgZiMLPN4/view" ;
     }
-    else if(inputVal1=="" && inputVal=="vaibhav00"){
+    else if(inputVal1=="TSITE34" && inputVal=="vaibhav00"){
    // document.getElementById("vaibhav").click();
    location.href="https://drive.google.com/file/d/1P5CxCXwz1C2_Xp9ZJ8WORVRR57YBg1YE/view" ;
     }
