@@ -118,7 +118,7 @@ function getInputValue(){
     }
     else if(inputVal1=="TSITE24" && inputVal=="shirisha54"){
    // document.getElementById("shirisha").click();
-   location.href="" ;
+   location.href="https://drive.google.com/drive/u/0/folders/10cGGtzwGkWE1wKfHh0qs-UP-uq17727s" ;
     }
     else if(inputVal1=="TSITE25" && inputVal=="kamal58"){
    // document.getElementById("kamal").click();
