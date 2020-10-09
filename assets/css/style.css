@@ -1649,3 +1649,55 @@ section {
   border:none;
   outline: none;
 }
+
+@media(min-width: 901px){
+  #imgwh{
+    width: 140px;
+    height: 140px;
+    border-radius:50%;
+    margin-left: auto;
+    margin-right:auto;
+    margin-top: 2px;
+
+  }
+}
+@media(max-width: 900px){
+  #imgwh{
+    width: 140px;
+    height: 140px;
+
+    border-radius:50%;
+    margin-left: auto;
+    margin-right:auto;
+    margin-top: 2px;
+  }
+}
+
+@media(min-width: 591px){
+  .mobile{
+    display: none;
+  }
+}
+@media(max-width: 590px){
+  #imgwh{
+    width: 125px;
+    height: 125px;
+
+    border-radius:50%;
+    margin-left: auto;
+    margin-right:auto;
+    margin-top: 3px;
+  }
+  .otherview{
+    display: none;
+  }
+}
+#imgmob{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  font-size: 12px;
+}
+#imgmob h5{
+  font-size: 16px;
+  white-space: nowrap;
+}
