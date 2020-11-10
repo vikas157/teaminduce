@@ -1701,3 +1701,13 @@ section {
   font-size: 16px;
   white-space: nowrap;
 }
+@media (min-width: 651px){
+  #mob{
+    display: none;
+  }
+}
+@media (max-width: 650px){
+  #oth{
+    display: none;
+  }
+}
