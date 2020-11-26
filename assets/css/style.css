@@ -1728,3 +1728,20 @@ section {
     display: none;
   }
 }
+@media(max-width: 550px){
+  .diwalivideo{
+    width: 100%;
+    margin-top: 10px;
+  }
+}
+@media(min-width: 551px){
+  .diwalivideo{
+    width: 500px;
+    margin-left: 18%;
+  }
+}
+@media(min-width: 950px){
+  .diwalivideo{
+    margin-left: 30%;
+  }
+}
