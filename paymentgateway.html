@@ -72,6 +72,11 @@ h1 {
     transform:translateX(25%);
   }
 }
+@media (max-width:600px){
+.headingtxt {
+  font-size: 20px;
+}
+}
 </style>
 <body>
   <header id="header" class="fixed-top header-transparent">
@@ -113,7 +118,7 @@ h1 {
 <div class="bg bg2"></div>
 <div class="bg bg3"></div>
 <div class="content">
-  <h3>Click here to pay</h3>
+  <h3 class="headingtxt">Click here to pay</h3>
     <form><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_H2IPRkoncn55PA" async> </script> </form>
 </div>
 <script src="assets/vendor/jquery/jquery.min.js"></script>
